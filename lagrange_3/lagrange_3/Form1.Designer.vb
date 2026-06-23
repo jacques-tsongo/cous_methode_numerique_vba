@@ -39,8 +39,6 @@ Partial Class Form1
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
@@ -208,29 +206,11 @@ Partial Class Form1
         Me.TextBox7.Size = New System.Drawing.Size(190, 26)
         Me.TextBox7.TabIndex = 16
         '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(278, 193)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(57, 20)
-        Me.Label9.TabIndex = 17
-        Me.Label9.Text = "X²+ = "
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(335, 187)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(162, 26)
-        Me.TextBox8.TabIndex = 18
-        '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(513, 190)
+        Me.Label10.Location = New System.Drawing.Point(291, 196)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(47, 20)
         Me.Label10.TabIndex = 19
@@ -239,9 +219,9 @@ Partial Class Form1
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(557, 187)
+        Me.TextBox9.Location = New System.Drawing.Point(335, 193)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox9.Size = New System.Drawing.Size(162, 26)
         Me.TextBox9.TabIndex = 20
         '
         'Form1
@@ -251,8 +231,6 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(783, 396)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.TextBox7)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox6)
@@ -293,8 +271,6 @@ Partial Class Form1
     Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
 

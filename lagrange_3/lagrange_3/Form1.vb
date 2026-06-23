@@ -8,7 +8,7 @@
         TextBox5.Text = ""
         TextBox6.Text = ""
         TextBox7.Text = ""
-        TextBox8.Text = ""
+        TextBox9.Text = ""
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -21,6 +21,12 @@
         b = Val(TextBox2.Text)
         c = Val(TextBox3.Text)
         d = Val(TextBox4.Text)
+
+        TextBox5.Text = 1 / ((a - b) * (a - c) * (a - d))
+        TextBox6.Text = (b + c + d) / ((a - b) * (a - c) * (a - d))
+        TextBox7.Text = ((b * c) + (b * d) + (d * c)) / ((a - b) * (a - c) * (a - d))
+        TextBox9.Text = (b * c * d) / ((a - b) * (a - c) * (a - d))
+
 
 
     End Sub
