@@ -12,4 +12,14 @@
         TextBox5.Text = (b * c) / ((a - b) * (a - c))
         TextBox6.Text = (b * c) / ((a - b) * (a - c))
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+        TextBox4.Text = ""
+        TextBox5.Text = ""
+        TextBox6.Text = ""
+
+    End Sub
 End Class
