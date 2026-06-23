@@ -178,9 +178,9 @@ Partial Class Form1
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(503, 144)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(44, 20)
+        Me.Label7.Size = New System.Drawing.Size(54, 20)
         Me.Label7.TabIndex = 13
-        Me.Label7.Text = "X^3 "
+        Me.Label7.Text = "X^3 ="
         '
         'TextBox6
         '
