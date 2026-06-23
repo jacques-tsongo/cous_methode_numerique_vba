@@ -33,6 +33,16 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -123,7 +133,7 @@ Partial Class Form1
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(96, 274)
+        Me.Button1.Location = New System.Drawing.Point(122, 340)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(173, 44)
         Me.Button1.TabIndex = 9
@@ -137,18 +147,118 @@ Partial Class Form1
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(400, 274)
+        Me.Button2.Location = New System.Drawing.Point(377, 340)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(173, 44)
         Me.Button2.TabIndex = 10
         Me.Button2.Text = "Effacer"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(276, 143)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(59, 20)
+        Me.Label6.TabIndex = 11
+        Me.Label6.Text = "L(x) = "
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(335, 141)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(162, 26)
+        Me.TextBox5.TabIndex = 12
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(503, 144)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(44, 20)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "X^3 "
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Location = New System.Drawing.Point(557, 137)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox6.TabIndex = 14
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(24, 193)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(57, 20)
+        Me.Label8.TabIndex = 15
+        Me.Label8.Text = "X²+ = "
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.Location = New System.Drawing.Point(70, 187)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox7.TabIndex = 16
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(278, 193)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(57, 20)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "X²+ = "
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.Location = New System.Drawing.Point(335, 187)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(162, 26)
+        Me.TextBox8.TabIndex = 18
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(513, 190)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(47, 20)
+        Me.Label10.TabIndex = 19
+        Me.Label10.Text = "X- = "
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox9.Location = New System.Drawing.Point(557, 187)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(190, 26)
+        Me.TextBox9.TabIndex = 20
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(783, 396)
+        Me.Controls.Add(Me.TextBox9)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)
@@ -177,5 +287,15 @@ Partial Class Form1
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
 
 End Class
