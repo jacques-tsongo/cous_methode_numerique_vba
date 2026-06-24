@@ -14,6 +14,11 @@
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim a As Single
         Dim b As Single
         Dim c As Single
@@ -35,6 +40,5 @@
         t = Val(TextBox9.Text)
 
         TextBox10.Text = ((a * p * t) + (b * q * r) + (c * d * s)) - ((r * p * c) + (s * q * a) + (t * d * b))
-
     End Sub
 End Class
