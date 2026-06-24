@@ -160,7 +160,7 @@ Partial Class Form1
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(59, 20)
         Me.Label6.TabIndex = 11
-        Me.Label6.Text = "L(x) = "
+        Me.Label6.Text = "X^3 = "
         '
         'TextBox5
         '
@@ -176,14 +176,14 @@ Partial Class Form1
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(503, 144)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(54, 20)
+        Me.Label7.Size = New System.Drawing.Size(65, 20)
         Me.Label7.TabIndex = 13
-        Me.Label7.Text = "X^3 ="
+        Me.Label7.Text = "X^2 - ="
         '
         'TextBox6
         '
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(557, 137)
+        Me.TextBox6.Location = New System.Drawing.Point(562, 137)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(190, 26)
         Me.TextBox6.TabIndex = 14
@@ -194,9 +194,9 @@ Partial Class Form1
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(24, 193)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(57, 20)
+        Me.Label8.Size = New System.Drawing.Size(56, 20)
         Me.Label8.TabIndex = 15
-        Me.Label8.Text = "X²+ = "
+        Me.Label8.Text = "X + = "
         '
         'TextBox7
         '
@@ -212,9 +212,9 @@ Partial Class Form1
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(291, 196)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(47, 20)
+        Me.Label10.Size = New System.Drawing.Size(35, 20)
         Me.Label10.TabIndex = 19
-        Me.Label10.Text = "X- = "
+        Me.Label10.Text = "- = "
         '
         'TextBox9
         '
